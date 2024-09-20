@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:background="@color/background">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="Calcul des Notes"
+        android:textAlignment="center"
+        android:textColor="#8F07FF"
+        android:textSize="20dp"
+        android:layout_margin="50dp"/>
+
+    <EditText
+        android:id="@+id/note1"
+        android:layout_width="281dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="note 1"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="50dp"
+
+        android:padding="12dp"
+        android:background="@drawable/bg"
+        />
+
+    <EditText
+        android:id="@+id/note2"
+        android:layout_width="281dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="note 2"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="50dp"
+        android:background="@drawable/bg"
+        />
+
+    <EditText
+        android:id="@+id/note3"
+        android:layout_width="281dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="note 3"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="50dp"
+        android:background="@drawable/bg"
+        />
+
+    <EditText
+        android:id="@+id/note4"
+        android:layout_width="281dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="note 4"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="50dp"
+        android:background="@drawable/bg"
+        />
+
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="100dp"
+        android:background="@drawable/bg"
+        android:text="calcul Notes" />
+
+    <TextView
+        android:id="@+id/Resulet"
+        android:layout_width="165dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="100dp"
+        android:textAlignment="center"/>
+
+
+</LinearLayout>
